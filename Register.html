@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Blood Bank System | Register</title>
+
+  <!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+  <!-- icheck bootstrap -->
+  <link rel="stylesheet" href="plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="dist/css/adminlte.min.css">
+</head>
+<body>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-6">
+      <div>
+        <!-- /.login-logo -->
+        <div class="card card-outline card-info">
+          <div class="card-header text-center">
+            <a href="" class="h1"><b>Blood </b> Bank System</a>
+          </div>
+          <div class="card-body">
+            <p class="login-box-msg">Register to start your session</p>
+
+            <form action="#" method="post">
+              <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Full name">
+                <div class="input-group-append">
+                  <div class="input-group-text">
+                    <span class="fas fa-user"></span>
+                  </div>
+                </div>
+              </div>
+              <div class="input-group mb-3">
+                <input type="email" class="form-control col-5" placeholder="Email">
+                <div class="input-group-append">
+                  <div class="input-group-text">
+                    <span class="fas fa-envelope"></span>
+                  </div>
+                  <input type="text" class="form-control" data-inputmask-alias="datetime" data-inputmask-inputformat="dd/mm/yy" data-mask placeholder="Date Of Birth">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text"><i class="far fa-calendar-alt"></i></span>
+                  </div>
+                </div>
+                <div class="input-group">
+
+                </div>
+              </div>
+              <div class="input-group mb-3">
+                <input type="password" class="form-control col-5" placeholder="Password">
+                <div class="input-group-append">
+                  <div class="input-group-text">
+                    <span class="fas fa-lock"></span>
+                  </div>
+                </div>
+                <input type="password" class="form-control col-5" placeholder="Retype password">
+                <div class="input-group-append">
+                  <div class="input-group-text">
+                    <span class="fas fa-lock"></span>
+                  </div>
+                </div>
+              </div>
+              <div class="input-group mb-3">
+                <div class="form-check">
+                  <label class="mr-lg-5">Gender</label>
+                  <input class="form-check-input mr-3" type="radio" name="radio1">
+                  <label class="form-check-label mr-lg-5">male</label>
+                  <input class="form-check-input mr-3" type="radio" name="radio1" checked>
+                  <label class="form-check-label mr-3">Female</label>
+                </div>
+              </div>
+              <div class="input-group mb-3">
+                <div class="form-check">
+                  <label class="mr-lg-5">Have you donated blood before?</label>
+                  <input class="form-check-input mr-3" type="radio" name="radio2">
+                  <label class="form-check-label mr-lg-5">Yes</label>
+                  <input class="form-check-input mr-3" type="radio" name="radio2">
+                  <label class="form-check-label mr-lg-5">No</label>
+                  <input class="form-check-input mr-3" type="radio" name="radio2" checked>
+                  <label class="form-check-label mr-3">Don't remember</label>
+                </div>
+              </div>
+              <div class="input-group mb-3">
+                <label>Blood Type</label>
+                <select class="form-control select1 col-2 ml-3" style="width: 100%;">
+                  <option>A+</option>
+                  <option>A-</option>
+                  <option>B+</option>
+                  <option>B-</option>
+                  <option>AB</option>
+                  <option>O+</option>
+                  <option>O-</option>
+                </select>
+                <div class="input-group-prepend ml-lg-5">
+                  <span class="input-group-text"><i class="fas fa-phone"></i></span>
+                </div>
+                <input type="text" class="form-control" data-inputmask='"mask": "(999) 999-9999"' data-mask placeholder="Phone">
+              </div>
+              <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="location">
+              </div>
+              <div class="row">
+                <div class="col-8">
+                  <div class="icheck-primary">
+                    <input type="checkbox" id="agreeTerms" name="terms" value="agree">
+                    <label for="agreeTerms">
+                      I agree to the <a href="#">terms</a>
+                    </label>
+                  </div>
+                </div>
+                <!-- /.col -->
+                <div class="col-4">
+                  <button type="submit" class="btn btn-primary btn-block">Register</button>
+                </div>
+              </div>
+            </form>
+
+            <p class="mb-0">
+              <a href="Login.html" class="text-center">I already have a membership</a>
+            </p>
+          </div>
+          <!-- /.card-body -->
+        </div>
+        <!-- /.card -->
+      </div>
+    </div>
+    <div class="col-lg-6">
+      <img src="dist/img/5.png" width="100%" height="90%">
+    </div>
+  </div>
+</div>
+
+<!-- /.login-box -->
+
+<!-- jQuery -->
+<script src="plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- AdminLTE App -->
+<script src="dist/js/adminlte.min.js"></script>
+</body>
+</html>
